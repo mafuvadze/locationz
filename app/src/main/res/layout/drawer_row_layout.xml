@@ -13,12 +13,12 @@
         <!-- icon -->
         <ImageView
                 android:id="@+id/menurow_icon"
-                android:layout_width="35dp"
-                android:layout_height="35dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
                 android:layout_alignParentLeft="true"
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="6dp"
-                android:visibility="gone"
+                android:visibility="visible"
                 android:layout_marginRight="12dp"
                 android:src="@drawable/new_icon" >
         </ImageView>

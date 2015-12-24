@@ -151,9 +151,9 @@ public class HomeActivity extends FragmentActivity {
         // initialize drawer content
         // need to determine selected item according to the currently selected sensor type
         drawerItemList = new ArrayList();
-        drawerItemList.add(new DrawerItem("#Senz", R.drawable.my_sensz_normal, R.drawable.my_sensz_selected, true));
-        drawerItemList.add(new DrawerItem("#Friend", R.drawable.friends_normal, R.drawable.friends_selected, false));
-        drawerItemList.add(new DrawerItem("#Share", R.drawable.friends_normal, R.drawable.friends_selected, false));
+        drawerItemList.add(new DrawerItem("Senz", R.mipmap.ic_senz, R.mipmap.ic_senz, true));
+        drawerItemList.add(new DrawerItem("Friend", R.mipmap.ic_friends, R.mipmap.ic_friends, false));
+        drawerItemList.add(new DrawerItem("Share", R.mipmap.ic_share, R.mipmap.ic_share, false));
 
         drawerAdapter = new DrawerAdapter(HomeActivity.this, drawerItemList);
         drawerListView = (ListView) findViewById(R.id.drawer);
